@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Страница — 1" id="jcjPnnef1QimTesesR7c">
-    <mxGraphModel dx="835" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1828" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,6 +37,14 @@
         <mxCell id="q1_f-fq9vrWVQxnhj_u6-8" value="&amp;nbsp; Класс Product описывает товар и имеет поля:&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; - id - уникальный идентификатор;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - name - наименование;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - default_price - стоимость по умолчанию;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; - category_id - идентификатор категории товара;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="190" y="-852" width="303" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="q1_f-fq9vrWVQxnhj_u6-12" target="q1_f-fq9vrWVQxnhj_u6-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-27" value="После сформирования чека&lt;div&gt;количество товаров на складе&amp;nbsp;&lt;/div&gt;&lt;div&gt;уменьшается&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V4K7QparhtURX0zVIgJR-26">
+          <mxGeometry x="0.1809" y="3" relative="1" as="geometry">
+            <mxPoint x="-33" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="q1_f-fq9vrWVQxnhj_u6-12" value="Storage" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="-852" width="160" height="138" as="geometry" />
         </mxCell>
@@ -67,9 +75,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1_f-fq9vrWVQxnhj_u6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.999;exitY=0.106;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;endArrow=none;endFill=0;dashed=1;" parent="1" source="q1_f-fq9vrWVQxnhj_u6-12" target="q1_f-fq9vrWVQxnhj_u6-16" edge="1">
+        <mxCell id="q1_f-fq9vrWVQxnhj_u6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.997;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;dashed=1;" parent="1" source="q1_f-fq9vrWVQxnhj_u6-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="-954.8" as="sourcePoint" />
+            <mxPoint x="725" y="-840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q1_f-fq9vrWVQxnhj_u6-40" value="Actions" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -151,7 +160,7 @@
         <mxCell id="q1_f-fq9vrWVQxnhj_u6-139" value="ProductPrice" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10.61" y="-590" width="250" height="242" as="geometry" />
         </mxCell>
-        <mxCell id="e-vRtdajn8Z1QqAnulrv-1" value="- id: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="q1_f-fq9vrWVQxnhj_u6-139" vertex="1">
+        <mxCell id="e-vRtdajn8Z1QqAnulrv-1" value="- prod_id: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="q1_f-fq9vrWVQxnhj_u6-139" vertex="1">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="q1_f-fq9vrWVQxnhj_u6-140" value="- price: Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="q1_f-fq9vrWVQxnhj_u6-139" vertex="1">
@@ -189,7 +198,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1_f-fq9vrWVQxnhj_u6-152" value="&amp;nbsp; Класс ProductPrice хранит цены на товар и имеет поля:&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; - id - уникальный идентификатор;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - price - цена товара;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - start_date - первый день использования этой цены;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - end_date - дата последнего использования этой цены;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;" parent="1" vertex="1">
+        <mxCell id="q1_f-fq9vrWVQxnhj_u6-152" value="&amp;nbsp; Класс ProductPrice хранит цены на товар и имеет поля:&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; - prod_id - идентификатор товара;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - price - цена товара;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - start_date - первый день использования этой цены;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - end_date - дата последнего использования этой цены;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="300.61" y="-590" width="331.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="q1_f-fq9vrWVQxnhj_u6-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.001;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" parent="1" source="q1_f-fq9vrWVQxnhj_u6-152" target="q1_f-fq9vrWVQxnhj_u6-139" edge="1">
@@ -198,6 +207,58 @@
             <Array as="points">
               <mxPoint x="300.61" y="-564" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="q1_f-fq9vrWVQxnhj_u6-150" target="q1_f-fq9vrWVQxnhj_u6-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="-1121" />
+              <mxPoint x="-50" y="-813" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-17" value="Хранит список&amp;nbsp;&lt;div&gt;товаров&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V4K7QparhtURX0zVIgJR-16">
+          <mxGeometry x="0.0101" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-18" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V4K7QparhtURX0zVIgJR-16">
+          <mxGeometry x="-0.9405" relative="1" as="geometry">
+            <mxPoint x="2" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-19" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V4K7QparhtURX0zVIgJR-16">
+          <mxGeometry x="0.9397" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;endSize=10;" edge="1" parent="1" source="e-vRtdajn8Z1QqAnulrv-1" target="q1_f-fq9vrWVQxnhj_u6-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="-551" />
+              <mxPoint x="-50" y="-787" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-21" value="Стоимость товара" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V4K7QparhtURX0zVIgJR-20">
+          <mxGeometry x="0.0233" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;endSize=6;startArrow=diamondThin;startFill=0;startSize=10;" edge="1" parent="1" source="V4K7QparhtURX0zVIgJR-8" target="q1_f-fq9vrWVQxnhj_u6-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-23" value="Стоимость формируется&lt;div&gt;в зависимости от скидки&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V4K7QparhtURX0zVIgJR-22">
+          <mxGeometry x="-0.0532" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;endSize=10;" edge="1" parent="1" source="q1_f-fq9vrWVQxnhj_u6-174" target="V4K7QparhtURX0zVIgJR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V4K7QparhtURX0zVIgJR-25" value="Храниться на складе" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V4K7QparhtURX0zVIgJR-24">
+          <mxGeometry x="-0.1027" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
