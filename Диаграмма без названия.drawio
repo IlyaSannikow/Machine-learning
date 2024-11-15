@@ -270,49 +270,49 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="noWXLAT_XePzZoMGEidE-14" value="Операция: processAction()" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;align=center;" parent="1" vertex="1">
-          <mxGeometry x="10" y="10" width="680" height="320" as="geometry" />
+          <mxGeometry x="10" y="10" width="860" height="160" as="geometry" />
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="noWXLAT_XePzZoMGEidE-14" vertex="1">
-          <mxGeometry y="30" width="680" height="30" as="geometry" />
+          <mxGeometry y="30" width="860" height="30" as="geometry" />
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-16" value="Ссылки" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-15" vertex="1">
-          <mxGeometry width="186" height="30" as="geometry">
-            <mxRectangle width="186" height="30" as="alternateBounds" />
+          <mxGeometry width="236" height="30" as="geometry">
+            <mxRectangle width="236" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-17" value="Прецеденты: Добавление скидок&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-15" vertex="1">
-          <mxGeometry x="186" width="494" height="30" as="geometry">
-            <mxRectangle width="494" height="30" as="alternateBounds" />
+          <mxGeometry x="236" width="624" height="30" as="geometry">
+            <mxRectangle width="624" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="noWXLAT_XePzZoMGEidE-14" vertex="1">
-          <mxGeometry y="60" width="680" height="50" as="geometry" />
+          <mxGeometry y="60" width="860" height="50" as="geometry" />
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-19" value="Предусловия" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-18" vertex="1">
-          <mxGeometry width="186" height="50" as="geometry">
-            <mxRectangle width="186" height="50" as="alternateBounds" />
+          <mxGeometry width="236" height="50" as="geometry">
+            <mxRectangle width="236" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-20" value="- Доступ к productService для получения информации о товаре&lt;div&gt;- Товар с подходящим prod_id в коллекции Product&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-18" vertex="1">
-          <mxGeometry x="186" width="494" height="50" as="geometry">
-            <mxRectangle width="494" height="50" as="alternateBounds" />
+          <mxGeometry x="236" width="624" height="50" as="geometry">
+            <mxRectangle width="624" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="noWXLAT_XePzZoMGEidE-14" vertex="1">
-          <mxGeometry y="110" width="680" height="210" as="geometry" />
+          <mxGeometry y="110" width="860" height="50" as="geometry" />
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-22" value="Постусловия" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;align=center;" parent="noWXLAT_XePzZoMGEidE-21" vertex="1">
-          <mxGeometry width="186" height="210" as="geometry">
-            <mxRectangle width="186" height="210" as="alternateBounds" />
+          <mxGeometry width="236" height="50" as="geometry">
+            <mxRectangle width="236" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="noWXLAT_XePzZoMGEidE-23" value="-&amp;nbsp;Если информация о продукте успешно получена (продукт существует), то будет выполнено следующее:&lt;div style=&quot;&quot;&gt;1)&amp;nbsp;Будет рассчитано значение defaultPrice как цена продукта.&lt;/div&gt;&lt;div&gt;2)Будет рассчитано значение discountedPrice как скидочная цена.&lt;br&gt;3)Будет добавлена запись в коллекцию ProductPrice с информацией о товаре.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Если информация о продукте не была найдена (продукт с заданным prod_id отсутствует), то будет выброшено исключение&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-21" vertex="1">
-          <mxGeometry x="186" width="494" height="210" as="geometry">
-            <mxRectangle width="494" height="210" as="alternateBounds" />
+        <mxCell id="noWXLAT_XePzZoMGEidE-23" value="&lt;div&gt;- Будет рассчитано значение discountedPrice как скидочная цена.&lt;br&gt;- Будет добавлена запись в коллекцию ProductPrice с информацией о товаре.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-21" vertex="1">
+          <mxGeometry x="236" width="624" height="50" as="geometry">
+            <mxRectangle width="624" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-34" value="Операция: addProductInReceipt(Product product, int quantity)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="10" y="350" width="770" height="240" as="geometry" />
+          <mxGeometry x="10" y="190" width="770" height="220" as="geometry" />
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-35" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="noWXLAT_XePzZoMGEidE-34" vertex="1">
           <mxGeometry y="30" width="770" height="30" as="geometry" />
@@ -341,20 +341,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="noWXLAT_XePzZoMGEidE-34" vertex="1">
-          <mxGeometry y="110" width="770" height="130" as="geometry" />
+          <mxGeometry y="110" width="770" height="110" as="geometry" />
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-42" value="Постусловия" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-41" vertex="1">
-          <mxGeometry width="212" height="130" as="geometry">
-            <mxRectangle width="212" height="130" as="alternateBounds" />
+          <mxGeometry width="212" height="110" as="geometry">
+            <mxRectangle width="212" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="noWXLAT_XePzZoMGEidE-43" value="&lt;div&gt;- Попытка поиска цены в коллекции ProductPrice. Если найдена, то оно используется в качестве значения цены, иначе значение default_price установленное в Product;&lt;/div&gt;&lt;div&gt;- Расчет стоимости с учетом количества товара;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Добавление товара&amp;nbsp; список товаров&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-41" vertex="1">
-          <mxGeometry x="212" width="558" height="130" as="geometry">
-            <mxRectangle width="558" height="130" as="alternateBounds" />
+        <mxCell id="noWXLAT_XePzZoMGEidE-43" value="&lt;div&gt;- Попытка поиска цены в коллекции ProductPrice. Если найдена, то price цены равен его значению, иначе значение default_price установленное в Product;&lt;/div&gt;&lt;div&gt;- Расчет payment с учетом количества товара;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Добавление товара список товаров&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-41" vertex="1">
+          <mxGeometry x="212" width="558" height="110" as="geometry">
+            <mxRectangle width="558" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-44" value="Операция: removeProduct(String productId)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="10" y="610" width="770" height="290" as="geometry" />
+          <mxGeometry x="10" y="430" width="770" height="230" as="geometry" />
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-45" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="noWXLAT_XePzZoMGEidE-44" vertex="1">
           <mxGeometry y="30" width="770" height="30" as="geometry" />
@@ -383,16 +383,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="noWXLAT_XePzZoMGEidE-44" vertex="1">
-          <mxGeometry y="140" width="770" height="150" as="geometry" />
+          <mxGeometry y="140" width="770" height="90" as="geometry" />
         </mxCell>
         <mxCell id="noWXLAT_XePzZoMGEidE-52" value="Постусловия" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-51" vertex="1">
-          <mxGeometry width="140" height="150" as="geometry">
-            <mxRectangle width="140" height="150" as="alternateBounds" />
+          <mxGeometry width="140" height="90" as="geometry">
+            <mxRectangle width="140" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="noWXLAT_XePzZoMGEidE-53" value="-&amp;nbsp;Произойдет итерация по коллекции productQuantities;&lt;div&gt;-&amp;nbsp;Для каждого элемента коллекции будут извлечены ключ (Product product) и значение (int quantity);&lt;/div&gt;&lt;div&gt;-&amp;nbsp;Если найден продукт с идентификатором, совпадающим с переданным productId, то:&lt;/div&gt;&lt;div&gt;1)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Общая сумма платежа (payment) будет уменьшена.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Такой продукт будет удален из коллекции productQuantities.&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-51" vertex="1">
-          <mxGeometry x="140" width="630" height="150" as="geometry">
-            <mxRectangle width="630" height="150" as="alternateBounds" />
+        <mxCell id="noWXLAT_XePzZoMGEidE-53" value="&lt;div&gt;-&amp;nbsp;Для каждого элемента коллекции будут извлечены ключ (Product product) и значение quantity равное (int quantity);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Общая сумма платежа (payment) будет уменьшена.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Такой продукт будет удален из коллекции productQuantities.&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;verticalAlign=top;" parent="noWXLAT_XePzZoMGEidE-51" vertex="1">
+          <mxGeometry x="140" width="630" height="90" as="geometry">
+            <mxRectangle width="630" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
